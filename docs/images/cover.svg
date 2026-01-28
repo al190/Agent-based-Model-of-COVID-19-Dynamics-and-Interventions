@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <rect width="100%" height="100%" fill="#0b3d91" />
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif">
+    <text x="50" y="90" font-size="36" font-weight="700">Agent-based Model of COVID-19</text>
+    <text x="50" y="130" font-size="20">Dynamics and Interventions</text>
+    <rect x="950" y="40" width="200" height="200" rx="8" fill="#ffffff20" stroke="#fff"/>
+    <text x="960" y="140" font-size="14">al190</text>
+  </g>
+</svg>
