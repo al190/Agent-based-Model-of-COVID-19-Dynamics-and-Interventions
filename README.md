@@ -16,8 +16,8 @@ For a comprehensive overview, please check our [presentation](link_to_presentati
 ## Contact Info
 
 For any inquiries, please reach out to:
-- Name: Your Name
-- Email: your_email@example.com
+- Name: Ali AA Lulu
+- Email: aliadhamlulu@gmail.com
 
 ---
 
