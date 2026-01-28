@@ -1,8 +1,6 @@
 # Agent-based Model of COVID-19 Dynamics and Interventions
 
-![Project cover](images/cover.svg)
-
-A concise, easy-to-read homepage for the project. This page gives an overview of the model, core ideas, and quick steps to reproduce results. The design is intentionally simple.
+A concise, easy-to-read homepage for the project. This page gives an overview of the model, core ideas, and short steps to reproduce results. The design is intentionally simple.
 
 ## About
 
@@ -17,37 +15,21 @@ The simulation represents agents moving between health states (Susceptible → E
 ## Key features
 
 - Individual-level agents with configurable behavior and contact patterns
-- Multiple interventions (social distancing, isolation/testing, contact tracing)
+- Multiple interventions (social distancing, testing & isolation, contact tracing)
 - Outputs for cases, hospitalizations, and intervention effectiveness
 - Scripts/notebooks to run experiments and produce plots
 
 ## Interventions (examples)
 
-![Interventions](images/interventions.svg)
+- Distancing — reduce number of contacts per agent; configurable compliance and contact reduction.
+- Testing & isolation — test symptomatic (and optionally asymptomatic) individuals; positive cases isolate to limit onward transmission. Parameters include test delay and isolation adherence.
+- Contact tracing — identify and notify contacts of positive cases; contacts may be quarantined or tested depending on tracing success and delay.
 
-Simple interventions include social distancing, isolation of symptomatic individuals, and contact tracing. Parameters for timing, compliance, and effectiveness are configurable.
+## Conclusion
 
-## Quick start (local)
+This project provides a flexible agent-based framework to explore how individual-level behaviors and interventions influence COVID-19 dynamics. Use the code and configuration options to reproduce experiments, compare intervention strategies, and extend the model for different settings.
 
-1. Clone the repository:
-
-   git clone https://github.com/al190/Agent-based-Model-of-COVID-19-Dynamics-and-Interventions.git
-2. Change to the project directory:
-
-   cd Agent-based-Model-of-COVID-19-Dynamics-and-Interventions
-3. (Optional) Create a virtual environment and activate it:
-
-   python -m venv venv
-   source venv/bin/activate   # macOS / Linux
-   venv\Scripts\activate    # Windows
-4. Install dependencies (if a requirements file exists):
-
-   pip install -r requirements.txt
-5. Run the main simulation script (adjust command if different in your repo):
-
-   python run_simulation.py
-
-Check the repository README for exact filenames and usage details.
+If you'd like, I can add a short Methodology or Results page, embed the presentation slides, or add screenshots of example outputs.
 
 ## Presentation
 
